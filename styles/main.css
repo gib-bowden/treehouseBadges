@@ -1,0 +1,29 @@
+body {
+    font-family: 'Comfortaa', serif;
+}
+
+
+.badge-card {
+    width: 250px;
+    margin: 25px 10px 25px 10px; 
+  }
+
+  .image-container img {
+    width: 250px;
+    margin: inherit;
+    z-index: 9999;
+    display: inline-block;
+    position: relative;
+  }
+
+  .text-container {
+      display: inline-block;
+      position: absolute;
+      top: 25%; 
+      left: 25%; 
+  }
+
+  .hidden {
+    display: none;
+  }
+
