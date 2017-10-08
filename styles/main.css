@@ -1,3 +1,8 @@
+body {
+    font-family: 'Comfortaa', serif;
+}
+
+
 .badge-card {
     width: 250px;
     margin: 25px 10px 25px 10px; 
@@ -21,3 +26,4 @@
   .hidden {
     display: none;
   }
+

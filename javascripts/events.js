@@ -30,4 +30,9 @@ $('body').on('click','.badge-card img', (e) => {
     }   
 });
 
+$('body').on('dblclick','.badge-card', (e) => {
+    $(e.target).addClass("magictime magic"); 
+
+});
+
 module.exports = {}; 
